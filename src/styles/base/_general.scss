@@ -1,0 +1,31 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1270px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  background: #1C1C1C;
+  font-family: Reformagroteskmediumc, sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.img-head {
+  background: url("../../img/head-img.png") center center no-repeat, linear-gradient(0.1deg, #1C1C1C 2.15%, rgba(27, 27, 27, 0.33) 47.06%), linear-gradient(0deg, rgba(27, 27, 27, 0.29) 39.74%, rgba(27, 27, 27, 0) 56.95%);
+  padding-top: 27px;
+  background-size: cover;
+}

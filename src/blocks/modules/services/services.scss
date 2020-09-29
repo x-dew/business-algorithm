@@ -1,0 +1,58 @@
+
+.services-title {
+
+  p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 80px;
+	line-height: 84px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #BCB188;
+  }
+}
+
+.services-escorts__img {
+  padding: 0 13px;
+  margin-bottom: 27px;
+  padding-top: 7px;
+}
+
+.services-escorts__line {
+  width: 99%;
+  background: #BCB188;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  height: 2px;
+  margin: 0 auto;
+}
+
+.services-escorts__text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.services-escorts__number {
+  p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 41px;
+	text-transform: uppercase;
+	color: rgba(188, 177, 136, 0.51);
+	opacity: 0.3;
+  }
+}
+
+
+.services-escorts__desc {
+  p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	text-transform: uppercase;
+	color: #BCB188;
+  }
+}
