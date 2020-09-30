@@ -419,7 +419,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 120px;
+  margin-bottom: 108px;
 }
 
 .logo-img {
@@ -703,7 +703,7 @@ button {
 }
 
 .algorithm__link {
-  margin-top: 100px;
+  margin-top: 117px;
 }
 
 .algorithm__link a {
@@ -762,6 +762,7 @@ button {
 }
 
 .algorithm__items-text .algorithm__list .algorithm__list-text p {
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -779,12 +780,17 @@ button {
 }
 
 .algorithm__items-text .algorithm__list .algorithm__number .number p {
+  font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
   line-height: 60px;
   text-transform: uppercase;
   margin: 0;
+}
+
+.algorithm__items-text .algorithm__list .algorithm__number .text {
+  font-family: sans-serif;
 }
 
 .algorithm__items-text .algorithm__list .algorithm__number .text p {
@@ -874,12 +880,15 @@ button {
   text-transform: uppercase;
   color: #BCB188;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 9px;
 }
 
 .cube-items {
   background: url("../../../img/cube.png") top 58px center no-repeat;
   min-height: 765px;
+  padding: 0 18px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cube-legal {
@@ -912,6 +921,9 @@ button {
   width: 246px;
   border-bottom: 1px solid #A9A9A9;
   height: 30px;
+  position: relative;
+  left: 20px;
+  top: -57px;
 }
 
 .cube-item__text p {
@@ -922,7 +934,32 @@ button {
   text-transform: uppercase;
   color: #BCB188;
   max-width: 217px;
-  margi: 0;
+  margin: 0;
+}
+
+.cube-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 765px;
+}
+
+.bottom {
+  margin-bottom: 103px;
+}
+
+.text-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-right p {
+  text-align: right;
+}
+
+.button-right {
+  left: -37px !important;
+  top: 77px !important;
 }
 
 .cubes {
