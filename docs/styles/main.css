@@ -921,6 +921,96 @@ button {
   max-width: 217px;
 }
 
+.cubes {
+  margin-top: 171px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 100px;
+}
+
+.cubes__text {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 106px;
+  text-align: center;
+  color: #BCB188;
+}
+
+.cubes__block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.block-cubes__seven {
+  margin-left: calc(100% / 3);
+}
+
+.block-cubes__three {
+  background: #2E2D28 !important;
+}
+
+.block-cubes__seven {
+  background: #2E2D28 !important;
+}
+
+.cubes__block p {
+  font-size: 24px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #BCB188;
+  width: 358px;
+}
+
+.cubes__block .block-cubes__two p {
+  color: #856535 !important;
+}
+
+.cubes__block .block-cubes__four p {
+  color: #856535 !important;
+}
+
+.cubes__block .block-cubes__five p {
+  color: #856535 !important;
+}
+
+.color {
+  font-family: sans-serif;
+  min-height: 216px;
+  background: #2E2D28;
+  width: calc(100% / 6);
+  position: relative;
+}
+
+.color p {
+  position: absolute;
+  bottom: -65px;
+  left: 20px;
+  z-index: 4;
+}
+
+.block-cubes__ten {
+  background: transparent !important;
+}
+
+.margin-left {
+  margin-left: calc(100% / 6);
+}
+
+.block-cubes__eight {
+  position: relative;
+}
+
+.block-cubes__eight::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 423px;
+  width: 211px;
+  min-height: 216px;
+  background: #2E2D28;
+}
+
 @media screen and (max-width: 1016px) {
   .algorithm .algorithm__number .text p {
     font-size: 18px !important;
