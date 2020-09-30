@@ -1,0 +1,17 @@
+.line-two {
+
+  margin-bottom: 222px;
+}
+
+.line-two__items {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.line-two__item {
+  width: 4px;
+  height: 217.62px;
+  background: #856535;
+  transform: rotate(-60deg);
+}
