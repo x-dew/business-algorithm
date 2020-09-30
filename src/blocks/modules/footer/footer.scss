@@ -1,4 +1,10 @@
+.footer {
+  padding-bottom: 200px;
+}
+
 .footer-title {
+  margin-bottom: 109px;
+
   p {
 	font-style: normal;
 	font-weight: 600;
@@ -7,10 +13,14 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #BCB188;
+	margin: 0;
   }
 }
 
 .footer-items {
+  display: flex;
+  justify-content: space-between;
+
   p {
 	margin: 0;
   }
@@ -26,6 +36,12 @@
 	color: #BCB188;
 
   }
+}
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer-schedule {
@@ -113,4 +129,35 @@
 .footer-metro__parking {
   border-top: 3px solid #4A4942;
   padding-top: 10px;
+}
+
+.footer-form {
+  width: 46%;
+}
+
+.form {
+  input {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 25px;
+	text-transform: uppercase;
+	background: transparent;
+	color: #BCB188;
+	border: none;
+	border-top: 2px solid #BCB188;
+	width: 100%;
+	padding: 33px 0;
+  }
+}
+
+button {
+  padding: 22px 0;
+  border: none;
+  border-top: 2px solid #BCB188;
+  border-bottom: 2px solid #BCB188;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  justify-content: flex-end;
 }
