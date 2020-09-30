@@ -21,3 +21,45 @@
   background: url("../../../img/cube.png") top 58px center no-repeat;
   min-height: 765px;
 }
+
+.cube-legal {
+  width: 71px;
+  height: 71px;
+  background: #BBB187;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cube-item__legal {
+  display: flex;
+
+  a {
+	text-decoration: none;
+	font-style: normal;
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 30px;
+	transform: rotate(-30deg);
+	color: rgba(187, 177, 135, 0.31);
+  }
+}
+
+.cube-text__button {
+  transform: rotate(-30deg);
+  width: 246px;
+  border-bottom: 1px solid #A9A9A9;
+}
+
+.cube-item__text {
+  p {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 38px;
+	text-transform: uppercase;
+	color: #BCB188;
+	max-width: 217px;
+  }
+}
