@@ -484,7 +484,6 @@ li {
 }
 
 .algorithm__menu h1 {
-  font-family: sans-serif;
   margin-bottom: 30px;
   font-style: normal;
   font-weight: 500;
@@ -622,6 +621,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 48px;
 }
 
 .services-escorts__number p {
@@ -634,6 +634,10 @@ li {
   opacity: 0.3;
 }
 
+.services-escorts__desc {
+  max-width: 613px;
+}
+
 .services-escorts__desc p {
   font-style: normal;
   font-weight: 500;
@@ -641,6 +645,37 @@ li {
   line-height: 50px;
   text-transform: uppercase;
   color: #BCB188;
+  padding-top: 34px;
+  margin: 0;
+}
+
+.services-line {
+  width: 4px;
+  height: 393px;
+  background: #856535;
+  margin: 0 auto;
+  margin-top: 98px;
+}
+
+.cube {
+  padding-top: 158px;
+  min-height: 100vh;
+}
+
+.cube-text p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 84px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #BCB188;
+  margin-top: 0;
+}
+
+.cube-items {
+  background: url("../../../img/cube.png") top 58px center no-repeat;
+  min-height: 765px;
 }
 
 @media screen and (max-width: 1016px) {

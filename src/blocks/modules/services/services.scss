@@ -30,6 +30,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 48px;
 
 }
 
@@ -47,6 +48,7 @@
 
 
 .services-escorts__desc {
+  max-width: 613px;
   p {
 	font-style: normal;
 	font-weight: 500;
@@ -54,5 +56,14 @@
 	line-height: 50px;
 	text-transform: uppercase;
 	color: #BCB188;
+	padding-top: 34px;
+	margin: 0;
   }
+}
+.services-line{
+  width: 4px;
+  height: 393px;
+  background: #856535;
+  margin: 0 auto;
+  margin-top: 98px;
 }

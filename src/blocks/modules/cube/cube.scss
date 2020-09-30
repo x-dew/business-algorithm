@@ -1,0 +1,23 @@
+.cube {
+  padding-top: 158px;
+  min-height: 100vh;
+}
+
+.cube-text {
+  p {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 80px;
+	line-height: 84px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #BCB188;
+	margin-top: 0;
+  }
+
+}
+
+.cube-items {
+  background: url("../../../img/cube.png") top 58px center no-repeat;
+  min-height: 765px;
+}
