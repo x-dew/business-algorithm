@@ -489,6 +489,10 @@ li {
   color: #BCB188;
 }
 
+.footer-items p {
+  margin: 0;
+}
+
 .footer-tel__text p {
   font-style: normal;
   font-weight: 600;
@@ -496,6 +500,10 @@ li {
   line-height: 42px;
   text-transform: uppercase;
   color: #BCB188;
+}
+
+.footer-schedule {
+  margin-left: 25px;
 }
 
 .footer-schedule p {
@@ -507,6 +515,10 @@ li {
   color: #4A4942;
 }
 
+.footer-address__text {
+  margin-bottom: 16px;
+}
+
 .footer-address__text p {
   font-style: normal;
   font-weight: 600;
@@ -514,6 +526,64 @@ li {
   line-height: 25px;
   text-transform: uppercase;
   color: #856535;
+}
+
+.footer-metro {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.footer-metro p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #4A4942;
+}
+
+.footer-cart {
+  width: 608px;
+  height: 250px;
+}
+
+.footer-tel {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 50px;
+}
+
+.footer-circle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #4A4942;
+  position: relative;
+  margin-right: 13px;
+}
+
+.footer-circle::after {
+  content: '';
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 7.8px);
+  width: 16px;
+  height: 16px;
+  background: #68B568;
+  border-radius: 50%;
+}
+
+.footer-metro__title {
+  display: flex;
+  align-items: center;
+  margin-right: 38px;
+  border-top: 3px solid #4A4942;
+  padding-top: 10px;
+}
+
+.footer-metro__parking {
+  border-top: 3px solid #4A4942;
+  padding-top: 10px;
 }
 
 .algorithm__menu {
