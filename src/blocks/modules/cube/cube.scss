@@ -100,20 +100,20 @@
   top: 77px !important;
 }
 
-//.cube-item__legal {
-//  &:hover .cube-legal img {
-//	display: none;
-//	transition: 0.5s;
-//  }
-//  &:hover .cube-legal  {
-//	background: transparent;
-//
-//  }
-//  &:hover .cube-wrapper {
-//	display: block;
-//	transition: 0.5s;
-//  }
-//}
+.cube-item__legal {
+  &:hover .cube-legal img {
+	display: none;
+	transition: 0.5s;
+  }
+  &:hover .cube-legal  {
+	background: transparent;
+
+  }
+  &:hover .cube-wrapper {
+	display: block;
+	transition: 0.5s;
+  }
+}
 .cube-menu__active {
   display: block;
 }

@@ -872,6 +872,8 @@ button {
   margin: 0 auto;
   padding: 28px 110px;
   background: #393635;
+  padding-bottom: 100px;
+  margin-top: 100px;
 }
 
 .modal-btn {
@@ -923,7 +925,6 @@ button {
 .text-modal {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 80px;
 }
 
 .text-modal__item {
@@ -949,6 +950,41 @@ button {
   text-transform: uppercase;
   color: #BCB188;
   margin: 0;
+}
+
+.modal-item__text p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  max-width: 600px;
+}
+
+.modal-line__number p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 41px;
+  text-transform: uppercase;
+  color: rgba(188, 177, 136, 0.86);
+  opacity: 0.3;
+}
+
+.modal-line__text {
+  margin-bottom: 50px;
+}
+
+.modal-line__text p {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #BCB188;
 }
 
 .cube {
@@ -1045,6 +1081,20 @@ button {
 .button-right {
   left: -37px !important;
   top: 77px !important;
+}
+
+.cube-item__legal:hover .cube-legal img {
+  display: none;
+  transition: 0.5s;
+}
+
+.cube-item__legal:hover .cube-legal {
+  background: transparent;
+}
+
+.cube-item__legal:hover .cube-wrapper {
+  display: block;
+  transition: 0.5s;
 }
 
 .cube-menu__active {
