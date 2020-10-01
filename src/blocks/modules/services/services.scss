@@ -49,6 +49,7 @@
 
 .services-escorts__desc {
   max-width: 613px;
+
   p {
 	font-style: normal;
 	font-weight: 500;
@@ -60,10 +61,104 @@
 	margin: 0;
   }
 }
-.services-line{
+
+.services-line {
   width: 4px;
   height: 393px;
   background: #856535;
   margin: 0 auto;
   margin-top: 98px;
 }
+
+.modal-title {
+  max-width: 1480px;
+  margin: 0 auto;
+  padding: 28px 110px;
+  background: #393635;
+}
+
+.modal-btn {
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-items {
+  .services-escorts__desc {
+	p {
+	  padding-top: 0;
+	}
+  }
+}
+
+.modal-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-item__button-submit {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border-top: 2px solid #FFFFFF;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.modal-img {
+  display: flex;
+  align-items: center;
+
+  img {
+	margin-right: 50px;
+  }
+
+}
+
+.modal-line {
+  width: 100%;
+  height: 2px;
+  background: #BCB188;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin-top: 46px;
+  margin-bottom: 46px;
+}
+
+.text-modal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.text-modal__item {
+  max-width: 600px;
+
+  p {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+
+  }
+}
+
+.modal-price {
+  p {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 45px;
+	line-height: 50px;
+	text-align: right;
+	text-transform: uppercase;
+	color: #BCB188;
+	margin: 0;
+  }
+}
+
