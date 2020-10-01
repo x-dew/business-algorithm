@@ -405,7 +405,7 @@ li {
 }
 
 .img-head {
-  background: url("../../img/head-img.png") center center no-repeat, linear-gradient(0.1deg, #1C1C1C 2.15%, rgba(27, 27, 27, 0.33) 47.06%), linear-gradient(0deg, rgba(27, 27, 27, 0.29) 39.74%, rgba(27, 27, 27, 0) 56.95%);
+  background: url("../img/head-img.png") center center no-repeat, linear-gradient(0.1deg, #1C1C1C 2.15%, rgba(27, 27, 27, 0.33) 47.06%), linear-gradient(0deg, rgba(27, 27, 27, 0.29) 39.74%, rgba(27, 27, 27, 0) 56.95%);
   padding-top: 27px;
   background-size: cover;
 }
@@ -1005,7 +1005,7 @@ button {
 }
 
 .cube-items {
-  background: url("../../../img/cube.png") top 58px center no-repeat;
+  background: url("../img/cube.png") top 58px center no-repeat;
   min-height: 765px;
   padding: 0 18px;
   display: flex;
